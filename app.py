@@ -51,7 +51,7 @@ sensor_val=0
 
 # Connect
 mqttc.username_pw_set('mlmfvyyy', 'kaqBqFCQW72v')
-mqttc.connect('postman.cloudmqtt.com', 31049)
+mqttc.connect('postman.cloudmqtt.com',31049)
 topic='/cloudmqtt'
 # Start subscribe, with QoS level 0
 mqttc.subscribe(topic, 0)
